@@ -20,4 +20,4 @@ https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
 1. Compute a **mean matrix** of size **(40,10304)** whre each row maps to the mean vector for a class
 2. Compute an overall mean for all classes producing a vector of size **(10304,1)**
 3. Compute the **between class scater matrix** producing a large matrix of size **(10304,10304)**
-![Capture](https://user-images.githubusercontent.com/37254194/65734405-11087900-e0d3-11e9-9e5c-a9f72d23dd2b.PNG)
+                ![Capture](https://user-images.githubusercontent.com/37254194/65734405-11087900-e0d3-11e9-9e5c-a9f72d23dd2b.PNG)
