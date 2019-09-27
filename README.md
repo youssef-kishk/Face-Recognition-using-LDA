@@ -20,4 +20,20 @@ https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
 1. Compute a **mean matrix** of size **(40,10304)** whre each row maps to the mean vector for a class
 2. Compute an overall mean for all classes producing a vector of size **(10304,1)**
 3. Compute the **between class scater matrix** producing a large matrix of size **(10304,10304)**
-                ![Capture](https://user-images.githubusercontent.com/37254194/65734405-11087900-e0d3-11e9-9e5c-a9f72d23dd2b.PNG)
+![Capture](https://user-images.githubusercontent.com/37254194/65734405-11087900-e0d3-11e9-9e5c-a9f72d23dd2b.PNG)
+4. Compute the **center class scatter matrix**
+5. Compute the **within class scatter matrix**
+6. Compute the **W** value 
+7. Finally compute the **eigen values and eigen vectors** limited to the number of classes **(40)**
+![Capture](https://user-images.githubusercontent.com/37254194/65734573-e8cd4a00-e0d3-11e9-9e43-d3a0de167231.PNG)<br/>
+
+
+
+## **Applying KNN**
+- Before applying the KNN algorithm I mapped the training and testing data batches to the **new dimensions** by the **dot product of each image matrix and the eigen vectors matrix.**
+- Applying KNN with different K values ranging from **(1 -> 25)** to get the estimated **best value for K**.
+
+
+## **Results**
+- The algorithm performed in an acceptable way giving a best recognition accuracy of **95.5 %**.
+![Capture](https://user-images.githubusercontent.com/37254194/65734760-cb4cb000-e0d4-11e9-954f-0de6e8375431.PNG)<br/>
