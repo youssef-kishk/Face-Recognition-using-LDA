@@ -24,8 +24,7 @@ https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
 4. Compute the **center class scatter matrix**
 5. Compute the **within class scatter matrix**
 6. Compute the **W** value 
-7. Finally compute the **eigen values and eigen vectors** limited to the number of classes **(40)**
-![Capture](https://user-images.githubusercontent.com/37254194/65734573-e8cd4a00-e0d3-11e9-9e43-d3a0de167231.PNG)<br/>
+7. Finally compute the **eigen values and eigen vectors** limited to the number of classes **(40)**<br/>
 
 
 
