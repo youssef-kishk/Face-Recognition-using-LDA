@@ -3,7 +3,7 @@ Performing face recognition with complete implementation in python of LDA algori
 
 
 ## **Data Set**
-I used the ORL dataset which has 10 images per 40 subjects,Every image is a grayscale image of size 92x112.<br/>
+I used the **ORL dataset** which has 10 images per 40 subjects,Every image is a grayscale image of size 92x112.<br/>
 For more information about the data set:<br/>
 https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
 
