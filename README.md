@@ -29,7 +29,7 @@ https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
 
 
 ## **Applying KNN**
-- Before applying the KNN algorithm I mapped the training and testing data batches to the **new dimensions** by the **dot product of each image matrix and the eigen vectors matrix.**
+- Before applying the KNN algorithm I mapped the training and testing data batches to the **new dimensions** by the **dot product of each image matrix and the eigen vectors matrix.** 
 - Applying KNN with different K values ranging from **(1 -> 25)** to get the estimated **best value for K**.
 
 
